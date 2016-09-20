@@ -1,0 +1,9 @@
+<td>{{widget.investmentName}}</td>
+<td>{{widget.high}}</td>
+<td>{{widget.low}}</td>
+
+<td>
+    <select name="repeatSelect" id="repeatSelect" ng-model="widget.timePeriod">
+        <option ng-repeat="option in vm.getTimes" value="{{option}}" ng-model="option">{{option}}</option>
+    </select>
+</td>

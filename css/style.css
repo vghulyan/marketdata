@@ -1,0 +1,26 @@
+body{
+    background:lightgoldenrodyellow;
+}
+
+table#markets {
+    font-size:16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#markets td, #markets th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#markets tr:nth-child(even){background-color: #f2f2f2}
+
+#markets th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4CAF50;
+    color: white;
+}
